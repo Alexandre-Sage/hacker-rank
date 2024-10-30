@@ -1,8 +1,11 @@
-mod migratory_birds;
-mod climbing_leaderboard;
-mod tower_break;
 mod chessboard;
+mod climbing_leaderboard;
+mod migratory_birds;
+//pub mod save_the_prisoner;
+mod equalize_array;
+mod tower_break;
 mod triplets;
+mod utopian_tree;
 fn main() {
     println!("Hello, world!");
 }
