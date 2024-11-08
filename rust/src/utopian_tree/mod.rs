@@ -6,10 +6,8 @@ pub fn parse_input(input: &str) -> Vec<i32> {
     splited.get(1..).unwrap().to_owned()
 }
 pub fn utopian_tree(line: i32) -> i32 {
-    println!("{line}");
     let mut result = 1;
     for i in 1..line + 1 {
-        println!("{i}");
         if i % 2 == 0 {
             result += 1
         } else {
